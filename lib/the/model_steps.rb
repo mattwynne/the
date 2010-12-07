@@ -1,3 +1,9 @@
+require 'the/cucumber'
+
+module Match
+  DomainEntity = /[A-z]\w+/
+end
+
 Given /^there is a (#{Match::DomainEntity}) named "([^"]*)"$/ do |type, name|
   Factory(type.underscore.to_sym, :name => name)
 end

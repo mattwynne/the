@@ -1,7 +1,3 @@
-module Match
-  DomainEntity = /[A-z]\w+/
-end
-
 module The
   module Dsl
     def the(thing, conditions = {})
@@ -22,5 +18,3 @@ module The
     end
   end
 end
-
-World(The::Dsl)
