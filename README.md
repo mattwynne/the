@@ -20,7 +20,7 @@ I have a common pattern in my cukes whenever the step talks about "the User" or 
 It's quite flexible, so you can pass `#the` a **symbol**, like in the example above, or a **class**, or a **string of a class name**. So, for example:
 
     When /^the (\w+) eats the (\w+)$/ do |eater, eaten|
-      the(eater).eat(eaten)
+      the(eater).eat(the(eaten))
     end
 
 Oh and it also understands a **hash of conditions**, just like `ActiveRecord::Base#find`, so you can do this:
