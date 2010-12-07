@@ -25,7 +25,7 @@ It's quite flexible, so you can pass `#the` a **symbol**, like in the example ab
 
 Oh and it also understands a **hash of conditions**, just like `ActiveRecord::Base#find`, so you can do this:
 
-    When /^the User named (\w+) eats the fish$/ do |name|
+    When /^the User named (\w+) eats the Fish$/ do |name|
       the(:user, :name => name).eat(the(:fish))
     end
 
