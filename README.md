@@ -39,6 +39,18 @@ If you just want the DSL, and none of these fancy step definitions, then try thi
 
     require 'the/cucumber'
 
+## Install
+
+Just add this to your Gemfile. You'll probably want to put it in your :test group, like so:-
+
+    group :test do
+      ...
+      gem 'the'
+      ...
+    end
+    
+Then give it some `bundle install`.
+
 ## Wot No Tests?
 
 Yeah, I know. I've extracted this from a project, so there ain't none... yet. Want to help?
