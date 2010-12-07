@@ -9,7 +9,7 @@ Given /^the following (#{Match::DomainEntity}):$/ do |type, attributes_table|
 end
 
 Then /^there should be (\d+) (#{Match::DomainEntity})$/ do |num, type|
-  type.constantize.count.should == num.to_i
+  type.singularize.constantize.count.should == num.to_i
 end
 
 Then /^the (#{Match::DomainEntity}) should have the following attributes:$/ do |type, table|
