@@ -51,6 +51,10 @@ Just add this to your Gemfile. You'll probably want to put it in your :test grou
     
 Then give it some `bundle install`.
 
+## Leaving the Cucumber
+
+If you want to use this in another testing framework, you should be able to just `include The::Dsl` in your test class. Try it.
+
 ## Wot No Tests?
 
 Yeah, I know. I've extracted this from a project, so there ain't none... yet. Want to help?
