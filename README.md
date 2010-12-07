@@ -33,8 +33,12 @@ In fact, there are a few **step definitions** defined for you, which you can enj
 
     require 'the/model_steps'
 
-...from somewhere inside your `features/step_definitions` folder. You'll have to look at the source for now if you want to know what they do.
+...from somewhere inside your `features/step_definitions` folder. You'll have to look at [the source](http://github.com/mattwynne/the/blob/master/lib/the/model_steps.rb) for now if you want to know what they do.
 
 If you just want the DSL, and none of these fancy step definitions, then try this for size:
 
     require 'the/cucumber'
+
+## Wot No Tests?
+
+Yeah, I know. I've extracted this from a project, so there ain't none... yet. Want to help?
