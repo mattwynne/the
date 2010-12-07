@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "the"
-  s.version = "0.0.2"
+  s.version = "0.0.3"
 
   s.required_rubygems_version = '>= 1.3.5'
   s.authors = ["Matt Wynne"]
